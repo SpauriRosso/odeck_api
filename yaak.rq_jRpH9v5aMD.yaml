@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_jRpH9v5aMD
+createdAt: 2025-08-19T19:02:05.015600493
+updatedAt: 2025-08-19T19:25:50.244002115
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_diKJsdSWqy
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "identifier": "${[ faker.internet.email() ]}"
+      "password": "${[ faker.internet.password() ]}"
+    }
+bodyType: application/json
+description: "Authenticate user by validating user value.\n\nTakes :\n\n`identifier` coulbe username or email \n\n`password` paswword of the given account"
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: ir34YcKzXk
+method: POST
+name: login
+sortPriority: -1755617600516.0
+url: ${[ url ]}login
+urlParameters: []

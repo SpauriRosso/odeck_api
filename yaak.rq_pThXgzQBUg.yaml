@@ -1,0 +1,51 @@
+type: http_request
+model: http_request
+id: rq_pThXgzQBUg
+createdAt: 2025-08-19T18:59:38.219728399
+updatedAt: 2025-08-19T19:24:15.197665099
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_diKJsdSWqy
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "z01_identifier": "ZONE01 CREDENTIALS",
+      "z01_password": "ZONE01 PASSWORD",
+      "first_name": "${[ faker.person.firstName() ]}",
+      "last_name": "${[ faker.person.lastName() ]}",
+      "username": "${[ faker.internet.userName() ]}",
+      "email": "${[ faker.internet.email() ]}",
+      "password": "1234",
+    }
+bodyType: application/json
+description: |-
+  Create a new account for a user with provided user information.
+
+  Takes user ZONE01 credentials as its act like an identity provider. After verification, process given values.
+
+  Takes :
+
+  `z01_identifier` : Zone01 user email or password
+
+  `z01_password` : Zone01 user  password
+
+  `first_name` : User firstname
+
+  `last_name` : User lastname
+
+  `username` : username could be different from the identity provider
+
+  `email` : email could be different from the identity provider
+
+  `password` : password minimul lenght < 60
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: xgUy2aaCXA
+method: POST
+name: register
+sortPriority: -1755617600516.0
+url: ${[ url ]}register
+urlParameters: []

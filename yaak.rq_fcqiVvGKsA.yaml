@@ -2,17 +2,17 @@ type: http_request
 model: http_request
 id: rq_fcqiVvGKsA
 createdAt: 2025-08-19T15:33:20.517761137
-updatedAt: 2025-08-19T15:34:14.453583967
+updatedAt: 2025-08-19T19:27:32.312896212
 workspaceId: wk_2GEn4PqF6x
 folderId: fl_GfiBd8Bf5T
 authentication: {}
 authenticationType: null
 body: {}
 bodyType: null
-description: ''
+description: Health check endpoint to ensure API liveness
 headers: []
 method: GET
-name: healtz
+name: healt
 sortPriority: -1755617600516.0
-url: http://localhost:5533/healtz
+url: ${[ url ]}health
 urlParameters: []

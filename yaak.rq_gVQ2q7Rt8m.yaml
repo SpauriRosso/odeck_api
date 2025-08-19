@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_gVQ2q7Rt8m
+createdAt: 2025-08-19T19:04:15.235442450
+updatedAt: 2025-08-19T19:26:46.584608685
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_U4ZBBzqsNu
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "limit": "100",
+      "page": "1",
+      "sort": "",
+      "filter": ""
+    }
+bodyType: application/json
+description: List users based on given parameters
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: VSEVdajSZq
+method: POST
+name: users
+sortPriority: -1755617600516.0
+url: users
+urlParameters: []
