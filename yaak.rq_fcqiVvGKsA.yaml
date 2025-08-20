@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_fcqiVvGKsA
 createdAt: 2025-08-19T15:33:20.517761137
-updatedAt: 2025-08-19T19:27:32.312896212
+updatedAt: 2025-08-19T19:29:54.222669052
 workspaceId: wk_2GEn4PqF6x
 folderId: fl_GfiBd8Bf5T
 authentication: {}
@@ -12,7 +12,7 @@ bodyType: null
 description: Health check endpoint to ensure API liveness
 headers: []
 method: GET
-name: healt
+name: health
 sortPriority: -1755617600516.0
 url: ${[ url ]}health
 urlParameters: []
