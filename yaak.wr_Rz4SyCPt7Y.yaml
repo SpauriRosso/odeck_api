@@ -1,0 +1,16 @@
+type: websocket_request
+model: websocket_request
+id: wr_Rz4SyCPt7Y
+createdAt: 2025-08-20T11:43:33.872605994
+updatedAt: 2025-08-20T11:44:18.883399152
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_GfiBd8Bf5T
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+message: ''
+name: websocket
+sortPriority: -1755617600000.0
+url: ${[ url ]}
+urlParameters: []

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pThXgzQBUg
 createdAt: 2025-08-19T18:59:38.219728399
-updatedAt: 2025-08-19T19:24:15.197665099
+updatedAt: 2025-08-21T17:58:20.018391468
 workspaceId: wk_2GEn4PqF6x
 folderId: fl_diKJsdSWqy
 authentication: {}
@@ -10,13 +10,11 @@ authenticationType: null
 body:
   text: |-
     {
-      "z01_identifier": "ZONE01 CREDENTIALS",
-      "z01_password": "ZONE01 PASSWORD",
       "first_name": "${[ faker.person.firstName() ]}",
       "last_name": "${[ faker.person.lastName() ]}",
       "username": "${[ faker.internet.userName() ]}",
       "email": "${[ faker.internet.email() ]}",
-      "password": "1234",
+      "password": "${[ faker.internet.password() ]}"
     }
 bodyType: application/json
 description: |-
@@ -47,5 +45,5 @@ headers:
 method: POST
 name: register
 sortPriority: -1755617600516.0
-url: ${[ url ]}register
+url: ${[ url ]}auth/register
 urlParameters: []
