@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_kXeG9xJkuQ
+createdAt: 2025-08-26T17:16:27.030318435
+updatedAt: 2025-08-26T17:21:33.060435334
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_yaYnMaoATe
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "user_id": 1,
+      "module_id": 2
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: XEeRe8EiIg
+method: POST
+name: progress
+sortPriority: -1755617600516.0
+url: ${[ url ]}user/progress
+urlParameters: []
