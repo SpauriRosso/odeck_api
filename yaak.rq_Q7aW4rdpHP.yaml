@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_Q7aW4rdpHP
+createdAt: 2025-08-27T00:27:21.398126118
+updatedAt: 2025-08-27T00:34:26.523569483
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_77Ked6irUq
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name":"${[ faker.word.adjective() ]}",
+      "description":"${[ faker.lorem.sentence() ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: CQWddBNm6t
+method: POST
+name: create
+sortPriority: 1000.0
+url: ${[ url ]}careers
+urlParameters: []

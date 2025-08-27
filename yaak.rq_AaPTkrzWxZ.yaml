@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_AaPTkrzWxZ
+createdAt: 2025-08-27T00:35:36.603589652
+updatedAt: 2025-08-27T00:36:26.101713727
+workspaceId: wk_2GEn4PqF6x
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: return overall server operation metrics
+headers: []
+method: GET
+name: status
+sortPriority: -0.0001
+url: ${[ url ]}status
+urlParameters: []

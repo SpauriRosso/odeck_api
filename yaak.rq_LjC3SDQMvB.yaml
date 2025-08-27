@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_TxcifgbwNT
-createdAt: 2025-08-26T17:15:11.972273333
-updatedAt: 2025-08-27T00:38:33.306347082
+id: rq_LjC3SDQMvB
+createdAt: 2025-08-27T00:27:25.137490738
+updatedAt: 2025-08-27T00:36:49.390936731
 workspaceId: wk_2GEn4PqF6x
 folderId: fl_77Ked6irUq
 authentication: {}
@@ -11,8 +11,8 @@ body: {}
 bodyType: null
 description: ''
 headers: []
-method: GET
-name: careers
-sortPriority: 0.0
-url: ${[ url ]}careers
+method: DELETE
+name: delete
+sortPriority: 3000.0
+url: ${[ url ]}careers/5
 urlParameters: []
