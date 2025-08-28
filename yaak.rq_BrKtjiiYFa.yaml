@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_BrKtjiiYFa
+createdAt: 2025-08-28T19:31:19.613514447
+updatedAt: 2025-08-28T19:45:34.303805346
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_uvVEekgTCD
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "email": "alva@mail.com",
+      "password": "1234"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: uXf2YyVunW
+method: POST
+name: login
+sortPriority: -1756409475621.0
+url: ${[ url ]}auth/login
+urlParameters: []

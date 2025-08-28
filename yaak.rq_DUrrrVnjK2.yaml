@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_DUrrrVnjK2
+createdAt: 2025-08-28T19:46:51.478495631
+updatedAt: 2025-08-28T19:47:40.346653828
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_HpGX4gMBZG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: careers
+sortPriority: -1756409475621.0
+url: ${[ url ]}careers
+urlParameters: []

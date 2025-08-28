@@ -1,0 +1,13 @@
+type: folder
+model: folder
+id: fl_LCiPwK76M7
+createdAt: 2025-08-28T19:29:17.688763360
+updatedAt: 2025-08-28T19:29:22.230716193
+workspaceId: wk_2GEn4PqF6x
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: User
+sortPriority: 2000.0

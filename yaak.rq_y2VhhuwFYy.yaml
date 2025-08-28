@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_y2VhhuwFYy
+createdAt: 2025-08-28T19:52:27.980560583
+updatedAt: 2025-08-28T19:56:36.082098330
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_Y6wdJgjYgo
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "first_name": "${[ faker.person.firstName() ]}",
+      "last_name": "${[ faker.person.lastName() ]}",
+      "username": "${[ faker.internet.username() ]}",
+      "email": "${[ faker.internet.email() ]}",
+      "password": "1234",
+      "role": "student",
+      "class": "P1 2024"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: NqmvjTXBqb
+method: PUT
+name: update
+sortPriority: -1756410731788.0
+url: ${[ url ]}admin/users/:id
+urlParameters:
+- enabled: true
+  name: :id
+  value: '6'
+  id: RxGUesT2Vb
+- enabled: true
+  name: ''
+  value: ''
+  id: fwRBn3xhE3

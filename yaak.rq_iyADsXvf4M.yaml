@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_iyADsXvf4M
+createdAt: 2025-08-28T19:48:12.119887480
+updatedAt: 2025-08-28T19:51:10.542802583
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_HpGX4gMBZG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: GmIIWdCwnV
+method: POST
+name: INOP | mark complete
+sortPriority: -1756409475621.0
+url: ${[ url ]}user/progress
+urlParameters: []

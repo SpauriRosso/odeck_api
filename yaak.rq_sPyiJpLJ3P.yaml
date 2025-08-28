@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_sPyiJpLJ3P
+createdAt: 2025-08-28T19:31:24.380158119
+updatedAt: 2025-08-28T19:32:14.351390813
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_uvVEekgTCD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: k8Tc80PYpR
+method: POST
+name: logout
+sortPriority: -1756409475621.0
+url: ${[ url ]}auth/logout
+urlParameters: []

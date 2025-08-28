@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_MKQMraPiNM
+createdAt: 2025-08-28T19:52:25.103663233
+updatedAt: 2025-08-28T19:53:59.461665024
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_Y6wdJgjYgo
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: user by id
+sortPriority: -1756410731788.0
+url: ${[ url ]}admin/users/:id
+urlParameters:
+- enabled: true
+  name: :id
+  value: '6'
+  id: 2dFXhvI9gS
+- enabled: true
+  name: ''
+  value: ''
+  id: qkuWtpz7Xj

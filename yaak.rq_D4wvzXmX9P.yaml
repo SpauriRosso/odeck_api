@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_D4wvzXmX9P
+createdAt: 2025-08-28T19:48:08.754557372
+updatedAt: 2025-08-28T19:51:28.966281135
+workspaceId: wk_2GEn4PqF6x
+folderId: fl_HpGX4gMBZG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: INOP | cards
+sortPriority: -1756409475621.0
+url: ${[ url ]}modules/:id/cards
+urlParameters:
+- enabled: true
+  name: :id
+  value: '1'
+  id: CMhJKtuvVS
+- enabled: true
+  name: ''
+  value: ''
+  id: g0SpDcKnsm
